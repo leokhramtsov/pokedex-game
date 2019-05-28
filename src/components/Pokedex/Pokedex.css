@@ -1,0 +1,25 @@
+.card-grid {
+  width: 90%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-info {
+  margin: 20px;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.winner {
+  background-color: green;
+  color: white;
+}
+
+.looser {
+  background-color: red;
+  color: white;
+}
